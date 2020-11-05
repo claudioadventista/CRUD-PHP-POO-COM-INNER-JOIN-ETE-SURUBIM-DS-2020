@@ -1,1 +1,189 @@
+/* Reset */
+*{
+	margin:0;
+	padding:0;
+}
+
+/* geral para todos os objetos */
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	background:#F2F2F2;
+}
+a{
+	text-decoration: none;
+	color: blue;
+}
+button[type='submit']{
+	cursor: pointer;
+}
+button[type='reset']{
+	cursor: pointer;
+}
+input[type='text']{
+	padding:7px;
+	font-size:1em;
+}
+input[type='checkbox']{
+	zoom:1.3
+}
+select{
+	padding:7px;
+	font-size:1em;
+	cursor: pointer;
+}
+i{
+	font-size:1.5em;	
+}
+
+/***************** Classes da página Index.php, e de outras *********************/
+
+.form{ /* FormUpdate.php, Deleted.php, Search.php */
+	height:160px;
+	padding:10px;
+	color:white;
+	box-sizing: border-box;
+	height: 185px;
+	background: #0B2161;
+}
+.inputForm{/* FormUpdate.php */
+	width:120px;
+}
+.spanBotao{/* FormUpdate.php */
+	float:right;
+}
+.but{ /* FormUpdate.php, Deleted.php, Search.php */
+	border:1px solid #666;
+	border-radius:3px;
+	font-size: 12px;
+	padding:10px 10px 7px 10px;
+	min-width:111px;
+	font-family: arial, helvetica, sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+	font-weight: bold;
+	letter-spacing:2px;
+	background: #E6E6E6;
+	cursor:pointer;
+}
+.but:hover{
+	background: #ddd;
+}
+.butColor{ /* FormUpdate.php, Deleted.php, Search.php */
+	font-family: Helvetica, Arial, sans-serif;
+	color:black;
+	font-size:18px;
+	font-weight:normal;
+}
+.butInab{ /* Deleted.php*/	
+	color:#BDBDBD;
+	cursor:not-allowed;
+}
+.iLightGreen{
+	color:#74DF00;"	
+}
+.iBrown{
+	color:#B40404;
+}
+.iOrange{
+	color:#FFBF00;
+}
+.iBlue{ /* FormUpdate.php, Deleted.php, Search.php */
+	color:blue;
+}
+.iRed{  /* FormUpdate.php, Deleted.php, Search.php */
+	color:red;
+}
+.iWhite{
+	color:white;
+}
+.contagem{ /* Deleted.php, Search.php */
+	position:relative;
+	margin-top:25px;
+	padding:0 10px;
+	color:black;
+}
+.formPesquisar{ /* Deleted.php */
+	float:right;
+	margin-top:-32px;
+}
+.tab{ /* Deleted.php, Search.php */
+	position:relative;
+	margin-top:25px;
+	padding:0 10px;
+}
+.tabela, td { /* Deleted.php, Search.php */
+		border: solid 1px #000;
+		border-collapse: collapse;
+		padding-left:5px;
+}
+.tabela, thead { /* Deleted.php, Search.php */
+		background: #e6dfa1;
+		width:100%;
+		color:black;
+}
+.tabela, th { /* Deleted.php, Search.php */
+		border: solid 1px #000;
+		padding-top:10px;
+		padding-bottom:10px;
+}
+.tabela, tbody { /* Deleted.php, Search.php */
+		background: white;
+}
+ .nome{ /* Deleted.php, Search.php */
+	width: 300px;
+}
+.turma{ /* Deleted.php, Search.php */
+	text-align:center;
+}
+.imc{ /* Deleted.php, Search.php */
+	width: 50px;
+}
+.situacao{ /* Deleted.php, Search.php */
+	width: 150px;
+}
+.nomeTurma{ /* Deleted.php, Search.php */
+	width: 100px;
+	background: #F2F5A9;
+}
+.acao{  /* Deleted.php, Search.php */
+	padding:10px 0 10px 10px;	
+	width:300px;
+}
+
+/* Fim classes da página Index.php*/
+
+.iGreen{ /* Deleted.php */
+	color:green;
+}
+.butA{ /* FormUpdate.php, Deleted.php, Search.php*/
+	border:1px solid #666;
+	border-radius:2px;
+	font-size: 12px;
+	padding:13px 10px 7px 10px;
+	min-width:111px;
+	font-family: arial, helvetica, sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+	font-weight: bold;
+	letter-spacing:2px;
+	background: #E6E6E6;
+	cursor:pointer;
+}
+.butB{ /* FormUpdate.php, Deleted.php, Search.php*/
+	position:relative;
+	top:11px;
+}
+.simboloMarcarCheckbox{ /* Deleted.php */
+	font-size:18px;	
+}
+.checkbox{ /* Deleted.php */
+	text-align:center;
+}
+
+.retornarMarcados{/* Deleted.php */
+	display:none;
+}
+
 
