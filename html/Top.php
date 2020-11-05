@@ -6,7 +6,9 @@
 		<title>Document</title>
 		<link rel="stylesheet" type="text/css" href="../css/Style.css" />
 		
-		<link href="../fonts/fontawesome-free-5.11.2-web/css/fontawesome.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+		
+		<!--<link href="../fonts/fontawesome-free-5.11.2-web/css/fontawesome.css" rel="stylesheet">-->
 	  	<!--<link href="fonts/fontawesome-free-5.11.2-web/css/brands.css" rel="stylesheet">-->
-	  	<link href="../fonts/fontawesome-free-5.11.2-web/css/solid.css" rel="stylesheet">
+	  	<!--<link href="../fonts/fontawesome-free-5.11.2-web/css/solid.css" rel="stylesheet">-->
 	</head>
